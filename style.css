@@ -1,47 +1,109 @@
+/* Загальний стиль */
 body {
     background-color: #2b2b2b;
-    color: white;
-    font-family: Arial, sans-serif;
+    color: #e6e6e6;
+    font-family: Georgia, "Times New Roman", serif;
     margin: 0;
-    font-size: 15px;
-    line-height: 1.6;
+    font-size: 16px;
+    line-height: 1.8;
+}
+/* НАВБАР */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #1a1a1a;
+    border-bottom: 1px solid #333;
 }
 
+/* Лого */
+.logo {
+    color: #ff2e2e;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Кнопки */
+.nav-btn {
+    color: #e6e6e6;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 6px 12px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+/* Ховер */
+.nav-btn:hover {
+    background-color: #ff2e2e;
+    color: black;
+}
+
+/* Кнопки частин */
+.chapter-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.chapter-btn {
+    text-decoration: none;
+    color: white;
+    padding: 10px 18px;
+    border: 1px solid #ff2e2e;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.chapter-btn:hover {
+    background-color: #ff2e2e;
+    color: black;
+}
+
+/* Контейнер тексту */
 .container {
-    padding: 20px;
-    max-width: 900px;
+    max-width: 750px;
     margin: auto;
-}
-.oblozhka {
-       width: 100%;
-    height: auto;
-    transition: transform 0.3s ease;
+    padding: 20px;
 }
 
-.oblozhka:hover {
-    transform: scale(1.2);
+/* ОБКЛАДИНКА НА ВСЮ ШИРИНУ */
+.cover {
+    width: 100vw;
+    height: 300px;
+    object-fit: cover;
+    display: block;
 }
 
+/* ЕФЕКТ НАВЕДЕННЯ */
+.cover:hover {
+    transform: scale(1.05);
+    transition: transform 0.4s ease;
+}
+
+/* Заголовок */
 h1 {
     color: #ff2e2e;
     text-align: center;
-    margin-bottom: 30px;
-
+    margin: 30px 0;
 }
 
+/* Теги */
 .tags {
-    margin-bottom: 20px;
+    text-align: center;
+    margin-bottom: 25px;
 }
 
 .tag {
     display: inline-block;
     background-color: #1a1a1a;
-    color: white;
-    padding: 8px 14px;
+    padding: 6px 12px;
     margin: 5px;
-    border-radius: 20px;
+    border-radius: 15px;
     border: 1px solid #ff2e2e;
-    cursor: pointer;
+    font-size: 13px;
     transition: 0.3s;
 }
 
@@ -50,13 +112,19 @@ h1 {
     color: black;
 }
 
-.story p {
-    line-height: 1.6;
-    margin: 10px 0;
+/* ТЕКСТ ЯК У ФАНФІКАХ */
+.story {
+    text-align: justify;
 }
 
+.story p {
+    margin-bottom: 16px;
+    text-indent: 20px;
+}
+
+/* Розділювач */
 .separator {
     text-align: center;
-    margin: 20px 0;
-    color: #aaa;
+    margin: 25px 0;
+    color: #888;
 }
