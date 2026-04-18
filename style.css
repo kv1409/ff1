@@ -203,3 +203,151 @@ h1 {
 .footer-right {
     text-align: right;
 }
+/* 📱 МОБІЛЬНА ВЕРСІЯ */
+@media (max-width: 768px) {
+
+    /* navbar */
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .nav-center {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .nav-btn {
+        margin: 5px;
+        font-size: 14px;
+    }
+
+    /* обкладинка */
+    .cover {
+        height: 200px;
+    }
+
+    /* контейнер */
+    .container {
+        padding: 15px;
+    }
+
+    /* текст */
+    body {
+        font-size: 15px;
+    }
+
+    .story p {
+        text-indent: 10px;
+        font-size: 15px;
+    }
+
+    /* заголовок */
+    h1 {
+        font-size: 22px;
+    }
+
+    /* теги */
+    .tag {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+
+    /* кнопки частин */
+    .chapter-nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .chapter-btn {
+        text-align: center;
+    }
+
+    /* footer */
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+
+    .footer-right {
+        text-align: center;
+    }
+}
+/* 📱 МОБІЛЬНА ВЕРСІЯ */
+@media (max-width: 768px) {
+
+    /* navbar */
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .nav-center {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .nav-btn {
+        margin: 5px;
+        font-size: 14px;
+    }
+
+    /* обкладинка */
+    .cover {
+        height: 200px;
+    }
+
+    /* контейнер */
+    .container {
+        padding: 15px;
+    }
+
+    /* текст */
+    body {
+        font-size: 15px;
+    }
+
+    .story p {
+        text-indent: 10px;
+        font-size: 15px;
+    }
+
+    /* заголовок */
+    h1 {
+        font-size: 22px;
+    }
+
+    /* теги */
+    .tag {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+
+    /* кнопки частин */
+    .chapter-nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .chapter-btn {
+        text-align: center;
+    }
+
+    /* footer */
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+
+    .footer-right {
+        text-align: center;
+    }
+}
